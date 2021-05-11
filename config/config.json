@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "eds-corner-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edsCorner/EdsCornerWebPart.js",
+          "manifest": "./src/webparts/edsCorner/EdsCornerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EdsCornerWebPartStrings": "lib/webparts/edsCorner/loc/{locale}.js"
+  }
+}
